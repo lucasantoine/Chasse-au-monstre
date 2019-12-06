@@ -29,7 +29,7 @@
 * [À propos du projet](#à-propos-du-projet)
   * [Développé avec](#développé-avec)
 * [Composition de l'archive](#composition-de-l'archive)
-* [Commencement](#commencement)
+* [Bien commencer](#bien-commencer)
   * [Pré-requis](#pré-requis)
   * [Installation](#installation)
   * [Éxecution](#éxecution)
@@ -57,121 +57,120 @@ Voici en détails le contenu de chaque dossiers et classes de ce projet.
 
 ### Dossier src :
 
-#### * [Case.java]
+#### [Case.java]
 
   * Classe contenant toutes les caractéristiques et méthodes d'une case de tableau de jeu.
 
-#### * [Chasseur.java]
+#### [Chasseur.java]
 
   * Classe contenant toutes les caractéristiques et méthodes du chasseur (la façon dont il se déplace, les bonus dont il dispose...)
 
-#### * [Direction.java]
+#### [Direction.java]
 
   * Énumération contenant toutes les directions que peut emprunter le Monstre à chaque tour (Nord, sud, est, ouest, ici)
 
-#### * [Joueur.java]
+#### [Joueur.java]
 
   * Classe contenant toutes les caractéristiques et méthodes propres à un joueur.
 
-#### * [Monstre.java]
+#### [Monstre.java]
 
   * Classe contenant toutes les caractéristiques et méthodes propres au monstre (la façon dont il se déplace...)
 
-#### * [Partie.java]
+#### [Partie.java]
 
   * Classe contenant toutes les caractéristiques et méthodes propres à la partie de jeu.
 
-#### * [Plateau.java]
+#### [Plateau.java]
 
   * Classe contenant toutes les caractéristiques et méthodes propres au plateau de jeu.
 
-#### * [Position.java]
+#### [Position.java]
 
   * Classe contenant toutes les caractéristiques et méthodes propres à la position d'un joueur sur le plateau (x/y)
 
-#### * [VueChasseur.java]
+#### [VueChasseur.java]
 
   * Classe contenant toutes les caractéristiques et méthodes de la vue Chasseur qui représente l'aspect du plateau de jeu de ce dernier.
 
-#### * [VueMonstre.java]
+#### [VueMonstre.java]
 
   * Classe contenant toutes les caractéristiques et méthodes de la vue Monstre qui représente l'aspect du plateau de jeu de ce dernier.
 
-#### * [ChasseurIA.java]
+#### [ChasseurIA.java]
 
   * Classe abstraite héritant de Chasseur contenant les méthodes principales de l'IA Chasseur.
 
-#### * [MonstreIA.java]
+#### [MonstreIA.java]
 
   * Classe abstraite héritant de Monstre contenant les méthodes principales de l'IA Monstre.
 
-#### * [ChasseurIAFacile.java]
+#### [ChasseurIAFacile.java]
 
   * Classe héritant de ChasseurIA redéfinissant la méthode de déplacement du Chasseur.
 
-#### * [ChasseurIAMoyen.java]
+#### [ChasseurIAMoyen.java]
 
   * Classe héritant de ChasseurIA redéfinissant la méthode de déplacement du Chasseur.
 
-#### * [MonstreIAFacile.java]
+#### [MonstreIAFacile.java]
 
   * Classe héritant de MonstreIA redéfinissant la méthode de déplacement du Monstre.
 
-#### * [MonstreIAMoyen.java]
+#### [MonstreIAMoyen.java]
 
   * Classe héritant de MonstreIA redéfinissant la méthode de déplacement du Monstre.
-
 
 ### Dossier test :
     
-#### * [CaseTest.java]
+#### [CaseTest.java]
 
   * Tests unitaires des méthodes de la classe Case.
 
-#### * [ChasseurTest.java]
+#### [ChasseurTest.java]
 
   * Tests unitaires des méthodes de la classe Chasseur.
 
-#### * [DirectionTest.java]
+#### [DirectionTest.java]
 
   * Tests unitaires des méthodes de la classe Direction.
 
-#### * [JoueurTest.java]
+#### [JoueurTest.java]
 
   * Tests unitaires des méthodes de la classe Joueur.
 
-#### * [MonstreTest.java]
+#### [MonstreTest.java]
 
   * Tests unitaires des méthodes de la classe Monstre.
 
-#### * [PlateauTest.java]
+#### [PlateauTest.java]
 
   * Tests unitaires des méthodes de la classe Plateau.
 
-#### * [PositionTest.java]
+#### [PositionTest.java]
 
   * Tests unitaires des méthodes de la classe Position.
 
-#### * [VuesTest.java]
+#### [VuesTest.java]
 
   * Tests unitaires des méhodes des classes VueChasseur et VueMonstre.
 
 ### Dossier doc :
 
-#### * [Javadoc]
+#### [Javadoc]
 
   * Javadoc de toutes les classes du dossier src.
 
-#### * [Screenshots]
+#### [Screenshots]
 
   * Dossier screenshots avec des captures d'écran et une vidéo du jeu en fonctionnement.
 
-#### * [Diagramme UML]
+#### [Diagramme UML]
 
   * Le diagramme UML de la Chasse au monstre.
 
 <!-- GETTING STARTED -->
-## Commencement
+## Bien commencer
 
 Pour obtenir une copie et lancer le jeu lancez ces étapes simples.
 
