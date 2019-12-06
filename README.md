@@ -1,28 +1,3 @@
-<!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo, twitter_handle, email
--->
-
-
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -51,13 +26,14 @@
 <!-- TABLE OF CONTENTS -->
 ## Sommaire
 
-* [À propos du projet](#about-the-project)
+* [À propos du projet](#à-propos-du-projet)
   * [Développé avec](#développé-avec)
-* [Composition de l'archive](#composition)
+* [Composition de l'archive](#composition-de-l-archive)
 * [Commencement](#commencement)
-  * [Pré-requis](#prerequisites)
+  * [Pré-requis](#pré-requis)
   * [Installation](#installation)
 * [Utilisation](#utilisation)
+* [Bugs connus](#bugs-connus)
 * [Contact](#contact)
 
 
@@ -66,23 +42,131 @@
 <!-- ABOUT THE PROJECT -->
 ## À propos du projet
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`lucasantoine`, `Chasse-au-monstre`, `twitter_handle`, `email`
+Projet réalisé  dans le cadre du second semestre de mon <a href="http://www.iut-a.univ-lille.fr/dut-info/">DUT Informatique</a> à l'IUT A de Lille. Il s'agit d'un jeu vidéo codé en langage Java sous l'IDE Eclipse, avec un affichage graphique grâce à la librairie JavaFX. Ce projet m'a permis de prendre en mains le codage événementiel pour la première fois et développer mes premières intelligences artificielles.
 
 
 ### Développé avec
 
-* [CLARISSE Louis]()
-* [OMEIRI Ramzy]()
+* [CLARISSE Louis]
+* [OMEIRI Ramzy]
 
 ## Composition de l'archive
 
 Voici en détails le contenu de chaque dossiers et classes de ce projet.
 
 ### Src
+
+#### Case.java
+
+Classe contenant toutes les caractéristiques et méthodes d'une case de tableau de jeu.
+
+#### Chasseur.java
+
+Classe contenant toutes les caractéristiques et méthodes du chasseur (la façon dont il se déplace, les bonus dont il dispose...)
+
+#### Direction.java
+
+Énumération contenant toutes les directions que peut emprunter le Monstre à chaque tour (Nord, sud, est, ouest, ici)
+
+#### Joueur.java
+
+Classe contenant toutes les caractéristiques et méthodes propres à un joueur.
+
+#### Monstre.java
+
+Classe contenant toutes les caractéristiques et méthodes propres au monstre (la façon dont il se déplace...)
+
+#### Partie.java
+
+Classe contenant toutes les caractéristiques et méthodes propres à la partie de jeu.
+
+#### Plateau.java
+
+Classe contenant toutes les caractéristiques et méthodes propres au plateau de jeu.
+
+#### Position.java
+
+Classe contenant toutes les caractéristiques et méthodes propres à la position d'un joueur sur le plateau (x/y)
+
+#### VueChasseur.java
+
+Classe contenant toutes les caractéristiques et méthodes de la vue Chasseur qui représente l'aspect du plateau de jeu de ce dernier.
+
+#### VueMonstre.java
+
+Classe contenant toutes les caractéristiques et méthodes de la vue Monstre qui représente l'aspect du plateau de jeu de ce dernier.
+
+#### ChasseurIA.java
+
+Classe abstraite héritant de Chasseur contenant les méthodes principales de l'IA Chasseur.
+
+#### MonstreIA.java
+Classe abstraite héritant de Monstre contenant les méthodes principales de l'IA Monstre.
+
+#### ChasseurIAFacile.java
+
+Classe héritant de ChasseurIA redéfinissant la méthode de déplacement du Chasseur.
+
+#### ChasseurIAMoyen.java
+
+Classe héritant de ChasseurIA redéfinissant la méthode de déplacement du Chasseur.
+
+#### MonstreIAFacile.java
+
+Classe héritant de MonstreIA redéfinissant la méthode de déplacement du Monstre.
+
+#### MonstreIAMoyen.java
+
+Classe héritant de MonstreIA redéfinissant la méthode de déplacement du Monstre.
+
+
+### Test 
+    
+#### CaseTest.java
+
+Tests unitaires des méthodes de la classe Case.
+
+#### ChasseurTest.java
+
+Tests unitaires des méthodes de la classe Chasseur.
+
+#### DirectionTest.java
+
+Tests unitaires des méthodes de la classe Direction.
+
+#### JoueurTest.java
+
+Tests unitaires des méthodes de la classe Joueur.
+
+#### MonstreTest.java
+
+Tests unitaires des méthodes de la classe Monstre.
+
+#### PlateauTest.java
+
+Tests unitaires des méthodes de la classe Plateau.
+
+#### PositionTest.java
+
+Tests unitaires des méthodes de la classe Position.
+
+#### VuesTest.java
+
+Tests unitaires des méhodes des classes VueChasseur et VueMonstre.
+
+### Doc :
+
+#### Javadoc
+
+Javadoc de toutes les classes du dossier src.
+
+#### Screenshots
+
+Dossier screenshots avec des captures d'écran et une vidéo du jeu en fonctionnement.
+
+#### Diagramme UML
+
+Le diagramme UML de la Chasse au monstre.
 
 <!-- GETTING STARTED -->
 ## Getting Started
