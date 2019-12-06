@@ -13,7 +13,7 @@
     <a href="https://github.com/lucasantoine/Chasse-au-monstre"><strong>Explorer le projet »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lucasantoine/Chasse-au-monstre">Vidéo de présentation</a>
+    <a href="https://drive.google.com/open?id=1A-WuKmq_ZpS0iYiUbJT5Zx9mLtPxvGym">Vidéo de présentation</a>
     ·
     <a href="https://github.com/lucasantoine/Chasse-au-monstre/issues">Reporter un bug</a>
    </p>
