@@ -33,14 +33,14 @@
   <h3 align="center">Chasse au monstre</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    Voici la chasse au monstre, un jeu qui se joue à deux joueurs. Les deux joueurs sont sur un plateau et incarnent soit un chasseur, soir un monstre. Ils ont chacun un objectif précis pour gagner : le monstre doit visiter chacune des cases du plateau et le chasseur doit trouver le monstre avant qu'il n'ait réussi son objectif.
     <br />
-    <a href="https://github.com/lucasantoine/Chasse-au-monstre"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lucasantoine/Chasse-au-monstre"><strong>Explorer le projet »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lucasantoine/Chasse-au-monstre">View Demo</a>
+    <a href="https://github.com/lucasantoine/Chasse-au-monstre">Vidéo de présentation</a>
     ·
-    <a href="https://github.com/lucasantoine/Chasse-au-monstre/issues">Report Bug</a>
+    <a href="https://github.com/lucasantoine/Chasse-au-monstre/issues">Reporter un bug</a>
     ·
     <a href="https://github.com/lucasantoine/Chasse-au-monstre/issues">Request Feature</a>
   </p>
@@ -49,24 +49,22 @@
 
 
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
+## Sommaire
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
+* [À propos du projet](#about-the-project)
+  * [Développé avec](#built-with)
+* [Composition de l'archive](#composition)
+* [Commencement](#getting-started)
+  * [Pré-requis](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
+* [Utilisation](#usage)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## À propos du projet
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -75,13 +73,16 @@ Here's a blank template to get started:
 `lucasantoine`, `Chasse-au-monstre`, `twitter_handle`, `email`
 
 
-### Built With
+### Développé avec
 
-* []()
-* []()
-* []()
+* [CLARISSE Louis]()
+* [OMEIRI Ramzy]()
 
+## Composition de l'archive
 
+Voici en détails le contenu de chaque dossiers et classes de ce projet.
+
+### Src
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -160,23 +161,3 @@ Project Link: [https://github.com/lucasantoine/Chasse-au-monstre](https://github
 * []()
 * []()
 * []()
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
