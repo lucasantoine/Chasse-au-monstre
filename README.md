@@ -5,7 +5,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Chasse au monstre</h3>
+  <h3 align="center">Chasse au monstre (2018)</h3>
 
   <p align="center">
     Voici la chasse au monstre, un jeu qui se joue à deux joueurs. Les deux joueurs sont sur un plateau et incarnent soit un chasseur, soir un monstre. Ils ont chacun un objectif précis pour gagner : le monstre doit visiter chacune des cases du plateau et le chasseur doit trouver le monstre avant qu'il n'ait réussi son objectif.
@@ -28,7 +28,7 @@
 
 * [À propos du projet](#à-propos-du-projet)
   * [Développé avec](#développé-avec)
-* [Composition de l'archive](#composition-de-l-archive)
+* [Composition de l'archive](#composition-de-l'archive)
 * [Commencement](#commencement)
   * [Pré-requis](#pré-requis)
   * [Installation](#installation)
@@ -57,118 +57,118 @@ Voici en détails le contenu de chaque dossiers et classes de ce projet.
 
 ### Dossier src :
 
-#### [Case.java]
+#### * [Case.java]
 
-Classe contenant toutes les caractéristiques et méthodes d'une case de tableau de jeu.
+  * Classe contenant toutes les caractéristiques et méthodes d'une case de tableau de jeu.
 
-#### [Chasseur.java]
+#### * [Chasseur.java]
 
-Classe contenant toutes les caractéristiques et méthodes du chasseur (la façon dont il se déplace, les bonus dont il dispose...)
+  * Classe contenant toutes les caractéristiques et méthodes du chasseur (la façon dont il se déplace, les bonus dont il dispose...)
 
-#### [Direction.java]
+#### * [Direction.java]
 
-Énumération contenant toutes les directions que peut emprunter le Monstre à chaque tour (Nord, sud, est, ouest, ici)
+  * Énumération contenant toutes les directions que peut emprunter le Monstre à chaque tour (Nord, sud, est, ouest, ici)
 
-#### [Joueur.java]
+#### * [Joueur.java]
 
-Classe contenant toutes les caractéristiques et méthodes propres à un joueur.
+  * Classe contenant toutes les caractéristiques et méthodes propres à un joueur.
 
-#### [Monstre.java]
+#### * [Monstre.java]
 
-Classe contenant toutes les caractéristiques et méthodes propres au monstre (la façon dont il se déplace...)
+  * Classe contenant toutes les caractéristiques et méthodes propres au monstre (la façon dont il se déplace...)
 
-#### [Partie.java]
+#### * [Partie.java]
 
-Classe contenant toutes les caractéristiques et méthodes propres à la partie de jeu.
+  * Classe contenant toutes les caractéristiques et méthodes propres à la partie de jeu.
 
-#### [Plateau.java]
+#### * [Plateau.java]
 
-Classe contenant toutes les caractéristiques et méthodes propres au plateau de jeu.
+  * Classe contenant toutes les caractéristiques et méthodes propres au plateau de jeu.
 
-#### [Position.java]
+#### * [Position.java]
 
-Classe contenant toutes les caractéristiques et méthodes propres à la position d'un joueur sur le plateau (x/y)
+  * Classe contenant toutes les caractéristiques et méthodes propres à la position d'un joueur sur le plateau (x/y)
 
-#### [VueChasseur.java]
+#### * [VueChasseur.java]
 
-Classe contenant toutes les caractéristiques et méthodes de la vue Chasseur qui représente l'aspect du plateau de jeu de ce dernier.
+  * Classe contenant toutes les caractéristiques et méthodes de la vue Chasseur qui représente l'aspect du plateau de jeu de ce dernier.
 
-#### [VueMonstre.java]
+#### * [VueMonstre.java]
 
-Classe contenant toutes les caractéristiques et méthodes de la vue Monstre qui représente l'aspect du plateau de jeu de ce dernier.
+  * Classe contenant toutes les caractéristiques et méthodes de la vue Monstre qui représente l'aspect du plateau de jeu de ce dernier.
 
-#### [ChasseurIA.java]
+#### * [ChasseurIA.java]
 
-Classe abstraite héritant de Chasseur contenant les méthodes principales de l'IA Chasseur.
+  * Classe abstraite héritant de Chasseur contenant les méthodes principales de l'IA Chasseur.
 
-#### [MonstreIA.java]
+#### * [MonstreIA.java]
 
-Classe abstraite héritant de Monstre contenant les méthodes principales de l'IA Monstre.
+  * Classe abstraite héritant de Monstre contenant les méthodes principales de l'IA Monstre.
 
-#### [ChasseurIAFacile.java]
+#### * [ChasseurIAFacile.java]
 
-Classe héritant de ChasseurIA redéfinissant la méthode de déplacement du Chasseur.
+  * Classe héritant de ChasseurIA redéfinissant la méthode de déplacement du Chasseur.
 
-#### [ChasseurIAMoyen.java]
+#### * [ChasseurIAMoyen.java]
 
-Classe héritant de ChasseurIA redéfinissant la méthode de déplacement du Chasseur.
+  * Classe héritant de ChasseurIA redéfinissant la méthode de déplacement du Chasseur.
 
-#### [MonstreIAFacile.java]
+#### * [MonstreIAFacile.java]
 
-Classe héritant de MonstreIA redéfinissant la méthode de déplacement du Monstre.
+  * Classe héritant de MonstreIA redéfinissant la méthode de déplacement du Monstre.
 
-#### [MonstreIAMoyen.java]
+#### * [MonstreIAMoyen.java]
 
-Classe héritant de MonstreIA redéfinissant la méthode de déplacement du Monstre.
+  * Classe héritant de MonstreIA redéfinissant la méthode de déplacement du Monstre.
 
 
 ### Dossier test :
     
-#### [CaseTest.java]
+#### * [CaseTest.java]
 
-Tests unitaires des méthodes de la classe Case.
+  * Tests unitaires des méthodes de la classe Case.
 
-#### [ChasseurTest.java]
+#### * [ChasseurTest.java]
 
-Tests unitaires des méthodes de la classe Chasseur.
+  * Tests unitaires des méthodes de la classe Chasseur.
 
-#### [DirectionTest.java]
+#### * [DirectionTest.java]
 
-Tests unitaires des méthodes de la classe Direction.
+  * Tests unitaires des méthodes de la classe Direction.
 
-#### [JoueurTest.java]
+#### * [JoueurTest.java]
 
-Tests unitaires des méthodes de la classe Joueur.
+  * Tests unitaires des méthodes de la classe Joueur.
 
-#### [MonstreTest.java]
+#### * [MonstreTest.java]
 
-Tests unitaires des méthodes de la classe Monstre.
+  * Tests unitaires des méthodes de la classe Monstre.
 
-#### [PlateauTest.java]
+#### * [PlateauTest.java]
 
-Tests unitaires des méthodes de la classe Plateau.
+  * Tests unitaires des méthodes de la classe Plateau.
 
-#### [PositionTest.java]
+#### * [PositionTest.java]
 
-Tests unitaires des méthodes de la classe Position.
+  * Tests unitaires des méthodes de la classe Position.
 
-#### [VuesTest.java]
+#### * [VuesTest.java]
 
-Tests unitaires des méhodes des classes VueChasseur et VueMonstre.
+  * Tests unitaires des méhodes des classes VueChasseur et VueMonstre.
 
 ### Dossier doc :
 
-#### [Javadoc]
+#### * [Javadoc]
 
-Javadoc de toutes les classes du dossier src.
+  * Javadoc de toutes les classes du dossier src.
 
-#### [Screenshots]
+#### * [Screenshots]
 
-Dossier screenshots avec des captures d'écran et une vidéo du jeu en fonctionnement.
+  * Dossier screenshots avec des captures d'écran et une vidéo du jeu en fonctionnement.
 
-#### [Diagramme UML]
+#### * [Diagramme UML]
 
-Le diagramme UML de la Chasse au monstre.
+  * Le diagramme UML de la Chasse au monstre.
 
 <!-- GETTING STARTED -->
 ## Commencement
@@ -225,53 +225,22 @@ java -jar ./Chasse_au_monstre_exec.jar
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Utilisation
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Vous pouvez l'utiliser seul en jouant contre l'intelligence artificielle, ou à deux en jouant chacun votre tour sur la même machine.
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Bugs connus
 
-See the [open issues](https://github.com/lucasantoine/Chasse-au-monstre/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
+  * L'éxecutable ne charge pas les images s'il ne se trouve pas dans le même dossier quel le dossier de ressources du projet.
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Lucas ANTOINE - lucas-antoine.com(https://lucas-antoine.com) - lucas.antoine.contact@gmail.com
 
-Project Link: [https://github.com/lucasantoine/Chasse-au-monstre](https://github.com/lucasantoine/Chasse-au-monstre)
+Lien du projet : [https://github.com/lucasantoine/Chasse-au-monstre](https://github.com/lucasantoine/Chasse-au-monstre)
 
 
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
