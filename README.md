@@ -54,7 +54,7 @@ Projet réalisé  dans le cadre du second semestre de mon <a href="http://www.iu
 
 Voici en détails le contenu de chaque dossiers et classes de ce projet.
 
-### Src
+### Dossier src :
 
 #### Case.java
 
@@ -120,7 +120,7 @@ Classe héritant de MonstreIA redéfinissant la méthode de déplacement du Mons
 Classe héritant de MonstreIA redéfinissant la méthode de déplacement du Monstre.
 
 
-### Test 
+### Dossier test :
     
 #### CaseTest.java
 
@@ -154,7 +154,7 @@ Tests unitaires des méthodes de la classe Position.
 
 Tests unitaires des méhodes des classes VueChasseur et VueMonstre.
 
-### Doc :
+### Dossier doc :
 
 #### Javadoc
 
@@ -169,28 +169,26 @@ Dossier screenshots avec des captures d'écran et une vidéo du jeu en fonctionn
 Le diagramme UML de la Chasse au monstre.
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Commencement
 
-To get a local copy up and running follow these simple steps.
+Pour obtenir une copie et lancer le jeu lancez ces étapes simples.
 
-### Prerequisites
+### Pré-requis
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Java SE 8 ou +.
+
 ```sh
-npm install npm@latest -g
+<a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html> Télécharger Java SE </a>
 ```
 
 ### Installation
  
-1. Clone the Chasse-au-monstre
+1. Cloner la Chasse-au-monstre
+
 ```sh
 git clone https:://github.com/lucasantoine/Chasse-au-monstre.git
 ```
-2. Install NPM packages
-```sh
-npm install
-```
+
 
 
 
