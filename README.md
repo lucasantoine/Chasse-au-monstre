@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/lucasantoine/Chasse-au-monstre">
-    <img src="https://drive.google.com/open?id=1EXfXuVBsMpXs7gug3DkTF4uSWvWS9i4c" alt="Logo" width="80" height="80">
+    <img src="res/JoueurChasseur.PNG" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Chasse au monstre (2018)</h3>
@@ -9,22 +9,21 @@
   <p align="center">
     Voici la chasse au monstre, un jeu qui se joue à deux joueurs. Les deux joueurs sont sur un plateau et incarnent soit un chasseur, soir un monstre. Ils ont chacun un objectif précis pour gagner : le monstre doit visiter chacune des cases du plateau et le chasseur doit trouver le monstre avant qu'il n'ait réussi son objectif.
     <br />
+    <br />
     <a href="https://github.com/lucasantoine/Chasse-au-monstre"><strong>Explorer le projet »</strong></a>
     <br />
     <br />
     <a href="https://github.com/lucasantoine/Chasse-au-monstre">Vidéo de présentation</a>
     ·
     <a href="https://github.com/lucasantoine/Chasse-au-monstre/issues">Reporter un bug</a>
-    ·
-    <a href="https://github.com/lucasantoine/Chasse-au-monstre/issues">Request Feature</a>
-  </p>
+   </p>
 </p>
 
 ## Sommaire
 
 * [À propos du projet](#à-propos-du-projet)
   * [Développé avec](#développé-avec)
-* [Composition de l'archive](#composition-de-l-'-archive)
+* [Composition](#composition)
 * [Bien commencer](#bien-commencer)
   * [Pré-requis](#pré-requis)
   * [Installation](#installation)
@@ -44,7 +43,7 @@ Projet ralisé  dans le cadre du second semestre de mon <a href="http://www.iut-
 * [CLARISSE Louis]
 * [OMEIRI Ramzy]
 
-## Composition de l'archive
+## Composition
 
 Voici en détails le contenu de chaque dossiers et classes de ce projet.
 
