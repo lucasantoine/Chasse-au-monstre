@@ -52,12 +52,12 @@
 ## Sommaire
 
 * [À propos du projet](#about-the-project)
-  * [Développé avec](#built-with)
+  * [Développé avec](#développé-avec)
 * [Composition de l'archive](#composition)
-* [Commencement](#getting-started)
+* [Commencement](#commencement)
   * [Pré-requis](#prerequisites)
   * [Installation](#installation)
-* [Utilisation](#usage)
+* [Utilisation](#utilisation)
 * [Contact](#contact)
 
 
