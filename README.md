@@ -1,8 +1,7 @@
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/lucasantoine/Chasse-au-monstre">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://drive.google.com/open?id=1EXfXuVBsMpXs7gug3DkTF4uSWvWS9i4c" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Chasse au monstre (2018)</h3>
@@ -21,14 +20,11 @@
   </p>
 </p>
 
-
-
-<!-- TABLE OF CONTENTS -->
 ## Sommaire
 
 * [À propos du projet](#à-propos-du-projet)
   * [Développé avec](#développé-avec)
-* [Composition de l'archive](#composition-de-l'archive)
+* [Composition de l'archive](#composition-de-l-'-archive)
 * [Bien commencer](#bien-commencer)
   * [Pré-requis](#pré-requis)
   * [Installation](#installation)
@@ -38,9 +34,6 @@
 * [Contact](#contact)
 
 
-
-
-<!-- ABOUT THE PROJECT -->
 ## À propos du projet
 
 Projet ralisé  dans le cadre du second semestre de mon <a href="http://www.iut-a.univ-lille.fr/dut-info/">DUT Informatique</a> à l'IUT A de Lille. Il s'agit d'un jeu vidéo codé en langage Java sous l'IDE Eclipse, avec un affichage graphique grâce à la librairie JavaFX. Ce projet m'a permis de prendre en mains le codage événementiel pour la première fois et développer mes premières intelligences artificielles.
@@ -220,17 +213,10 @@ java -jar .\Chasse_au_monstre_exec.jar
 java -jar ./Chasse_au_monstre_exec.jar
 ```
 
-
-
-
-<!-- USAGE EXAMPLES -->
 ## Utilisation
 
 Vous pouvez l'utiliser seul en jouant contre l'intelligence artificielle, ou à deux en jouant chacun votre tour sur la même machine.
 
-
-
-<!-- ROADMAP -->
 ## Bugs connus
 
   * L'éxecutable ne charge pas les images s'il ne se trouve pas dans le même dossier quel le dossier de ressources du projet.
@@ -238,7 +224,7 @@ Vous pouvez l'utiliser seul en jouant contre l'intelligence artificielle, ou à 
 <!-- CONTACT -->
 ## Contact
 
-Lucas ANTOINE - lucas-antoine.com(https://lucas-antoine.com) - lucas.antoine.contact@gmail.com
+Lucas ANTOINE - <a href="https://lucas-antoine.com">lucas-antoine.com</a> - lucas.antoine.contact@gmail.com
 
 Lien du projet : [https://github.com/lucasantoine/Chasse-au-monstre](https://github.com/lucasantoine/Chasse-au-monstre)
 
