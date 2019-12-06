@@ -26,23 +26,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/lucasantoine/repo">
+  <a href="https://github.com/lucasantoine/Chasse-au-monstre">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">Chasse au monstre</h3>
 
   <p align="center">
     YOUR_SHORT_DESCRIPTION
     <br />
-    <a href="https://github.com/lucasantoine/repo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lucasantoine/Chasse-au-monstre"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lucasantoine/repo">View Demo</a>
+    <a href="https://github.com/lucasantoine/Chasse-au-monstre">View Demo</a>
     ·
-    <a href="https://github.com/lucasantoine/repo/issues">Report Bug</a>
+    <a href="https://github.com/lucasantoine/Chasse-au-monstre/issues">Report Bug</a>
     ·
-    <a href="https://github.com/lucasantoine/repo/issues">Request Feature</a>
+    <a href="https://github.com/lucasantoine/Chasse-au-monstre/issues">Request Feature</a>
   </p>
 </p>
 
@@ -72,7 +72,7 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`lucasantoine`, `repo`, `twitter_handle`, `email`
+`lucasantoine`, `Chasse-au-monstre`, `twitter_handle`, `email`
 
 
 ### Built With
@@ -98,9 +98,9 @@ npm install npm@latest -g
 
 ### Installation
  
-1. Clone the repo
+1. Clone the Chasse-au-monstre
 ```sh
-git clone https:://github.com/lucasantoine/repo.git
+git clone https:://github.com/lucasantoine/Chasse-au-monstre.git
 ```
 2. Install NPM packages
 ```sh
@@ -121,7 +121,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/lucasantoine/repo/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/lucasantoine/Chasse-au-monstre/issues) for a list of proposed features (and known issues).
 
 
 
@@ -150,7 +150,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-Project Link: [https://github.com/lucasantoine/repo](https://github.com/lucasantoine/repo)
+Project Link: [https://github.com/lucasantoine/Chasse-au-monstre](https://github.com/lucasantoine/Chasse-au-monstre)
 
 
 
