@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/lucasantoine/Chasse-au-monstre">
-    <img src="res/JoueurChasseur.PNG" alt="Logo" width="80" height="80">
+    <img src="res/JoueurChasseur.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Chasse au monstre (2018)</h3>
