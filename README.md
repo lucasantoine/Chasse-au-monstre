@@ -171,7 +171,7 @@ Pour obtenir une copie et lancer le jeu lancez ces étapes simples.
 Java SE 8 ou +.
 
 ```sh
-<a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html> Télécharger Java SE </a>
+https://www.oracle.com/technetwork/java/javase/downloads/index.html
 ```
 
 ### Installation
