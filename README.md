@@ -164,7 +164,7 @@ Voici en détails le contenu de chaque dossiers et classes de ce projet.
 <!-- GETTING STARTED -->
 ## Bien commencer
 
-Pour obtenir une copie et lancer le jeu lancez ces étapes simples.
+Pour obtenir une copie et lancer le jeu suivez ces étapes simples.
 
 ### Pré-requis
 
